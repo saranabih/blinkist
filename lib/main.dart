@@ -41,7 +41,7 @@ main() {
         "you_screen": (context) => you_screen(),
         'tag_screen': (context) => tags_screen(),
         'Categorie_Screen': (context) =>categories_screen(),
-         'navi': (context) =>navi()
+        'navi': (context) =>navi()
 
       },
       home: myA()
