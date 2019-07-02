@@ -34,7 +34,7 @@ class _myCState extends State<myC> {
                       fontFamily: 'Raleway-Italic',
                     )),
                 onPressed: () {
-                  Navigator.pushNamed(context, 'classG');
+                  Navigator.pushNamed(context, '/classG');
                 },
               ),
             ),
@@ -47,7 +47,7 @@ class _myCState extends State<myC> {
               child: FlatButton(
                   textColor: Colors.greenAccent[400],
                   onPressed: () {
-                    Navigator.pushNamed(context, 'classF');
+                    Navigator.pushNamed(context, '/classF');
                   },
                   child: Text(
                     "Loge in",

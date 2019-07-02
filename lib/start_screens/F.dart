@@ -108,7 +108,7 @@ class _myFState extends State<myF> {
             child:FlatButton(
                   textColor: Colors.black,
                   onPressed: () {
-                    Navigator.pushNamed(context, 'classE');
+                    Navigator.pushNamed(context, '/classE');
                   },
                   child: Text(
                     "Loge in with email",

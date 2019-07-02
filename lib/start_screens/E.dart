@@ -117,7 +117,7 @@ class _myEState extends State<myE> {
                       child: FlatButton(
                           textColor: Colors.black,
                           onPressed: () {
-                            Navigator.pushNamed(context, 'classD');
+                            Navigator.pushNamed(context, '/classD');
                           },
                           child: Text(
                             "Forget password?",

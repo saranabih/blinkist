@@ -27,23 +27,23 @@ main() {
       debugShowCheckedModeBanner: false,
       title: "Blinkist",
       routes: <String, WidgetBuilder>{
-        "classB": (context) => myB(),
-        "classC": (context) => myC(),
-        "classD": (context) => myD(),
-        "classE": (context) => myE(),
-        "classF": (context) => myF(),
-        "classG": (context) => myG(),
-        'settings_screen': (context) => settings_screen(),
-        'search_screen': (context) => search_screen(),
-        'all_plans_start_trial': (context) => all_plans_start_trial(),
-        'Discover_screen': (context) => Discover_screen(),
-        'start_trial': (context) => start_trial(),
-        "you_screen": (context) => you_screen(),
-        'tag_screen': (context) => tags_screen(),
-        'Categorie_Screen': (context) =>categories_screen(),
-        'navi': (context) =>navi()
+        "/classB": (context) => myB(),
+        "/classC": (context) => myC(),
+        "/classD": (context) => myD(),
+        "/classE": (context) => myE(),
+        "/classF": (context) => myF(),
+        "/classG": (context) => myG(),
+        '/settings_screen': (context) => settings_screen(),
+        '/search_screen': (context) => search_screen(),
+        '/all_plans_start_trial': (context) => all_plans_start_trial(),
+        '/Discover_screen': (context) => Discover_screen(),
+        '/start_trial': (context) => start_trial(),
+        "/you_screen": (context) => you_screen(),
+        '/tag_screen': (context) => tags_screen(),
+        '/Categorie_Screen': (context) =>categories_screen(),
+        '/navi': (context) =>navi()
 
       },
-      home: myA()
+      home: Discover_screen()
       ));
 }

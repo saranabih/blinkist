@@ -12,7 +12,7 @@ class _myAState extends State<myA> {
   void initState() {
     super.initState();
     
-    Timer(Duration(seconds: 3),()=> Navigator.pushNamed(context, 'classC'));
+    Timer(Duration(seconds: 3),()=> Navigator.pushNamed(context, '/classC'));
   }
   @override
   Widget build(BuildContext context) {

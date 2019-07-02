@@ -42,7 +42,7 @@ class _library_screenState extends State<library_screen> {
                 size: 30,
               ),
               onPressed: () {
-                Navigator.pushNamed(context, 'tag_screen');
+                Navigator.pushNamed(context, '/tag_screen');
               })
         ],
         flexibleSpace: FlexibleSpaceBar(

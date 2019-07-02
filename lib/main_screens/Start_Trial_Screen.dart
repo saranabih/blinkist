@@ -200,7 +200,7 @@ class _start_trialState extends State<start_trial> {
             child: FlatButton(
                 textColor: Colors.yellow[700],
                 onPressed: () {
-                      Navigator.pushNamed(context, 'all_plans_start_trial');
+                      Navigator.pushNamed(context, '/all_plans_start_trial');
                 },
                 child: Text(
                   "view all plans",

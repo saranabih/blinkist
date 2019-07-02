@@ -34,12 +34,12 @@ class _you_screenState extends State<you_screen> {
                         color: Colors.white,
                       ),
                       onPressed: (){
-                        Navigator.pushNamed(context, 'settings_screen');
+                        Navigator.pushNamed(context, '/settings_screen');
                       },
                       ),
                   ],
                   flexibleSpace: FlexibleSpaceBar(
-                    titlePadding: EdgeInsets.all(20),
+                    titlePadding: EdgeInsets.all(40),
                     title: Text("You",
                         style: TextStyle(
                           color: Colors.white,

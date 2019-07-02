@@ -80,7 +80,7 @@ class _myGState extends State<myG> {
                 textColor: Colors.white,
                 elevation: 0.9,
                 onPressed: () {
-                  Navigator.pushNamed(context, 'navi');
+                  Navigator.pushNamed(context, '/navi');
                 },
               ),
             ),
@@ -131,7 +131,7 @@ class _myGState extends State<myG> {
               child: FlatButton(
                   textColor: Colors.deepPurple[900],
                   onPressed: () {
-                    Navigator.pushNamed(context, 'classB');
+                    Navigator.pushNamed(context, '/classB');
                   },
                   child: Text(
                     "sign up with email",
